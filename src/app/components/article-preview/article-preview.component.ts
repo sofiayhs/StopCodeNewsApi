@@ -9,5 +9,4 @@ import { Article } from 'src/app/models/news';
 export class ArticlePreviewComponent {
   @Input()
   article?: Article;
-
 }
