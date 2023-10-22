@@ -10,5 +10,4 @@ export class ArticlePreviewComponent {
   @Input()
   article?: Article;
 
-
 }
