@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.center-screen{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:80vh
+ }
+ 
+ form.auth{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom:1 rem;
+ }
+
+ h2{
+   text-align: center;
+ }
+
+ .news-title{
+   background-color: rgb(17, 17, 114);
+   color: aliceblue;
+   padding:20px;
+ }
+
+ .card{
+   margin:1em;
+   background-color: rgba(0, 0, 255, 0.055);
+ }
+
+ .ricerca{
+  width:60vh;
+  margin: 20px auto;
+
+  
+ }
+
+ .home{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+
+ }
+
+ .articles{
+  width:50vh;
+
+ }

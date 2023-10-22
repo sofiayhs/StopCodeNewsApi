@@ -1,0 +1,11 @@
+<h2 class="news-title">NEWS</h2>
+
+<form class="input-group mb-3  ricerca" name="laForm">
+    <input type="text" [(ngModel)]="searchInput" #inputSearch class="form-control" placeholder="inserisci il termine..." aria-label="Search" aria-describedby="search">
+    <button class="btn btn-outline-danger" id="button-addon2" (click)="onSearch(inputSearch.value)">Search news</button>
+</form>
+
+<div class="container">
+    <app-article-preview *ngFor="let a of articles" [article]="a">
+    </app-article-preview>
+</div>

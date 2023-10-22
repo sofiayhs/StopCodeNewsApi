@@ -1,0 +1,10 @@
+<div class="card" *ngIf="article">
+    <div class="card-body">
+        <h4 class="card-title">    {{article.title}} - {{article.source.name}} </h4>
+        <h6 class="card-subtitle mb-2 text-secondary"> {{article.author}}</h6>
+        <p class="card-text">{{article.description}}</p>
+        Leggi l'articolo completo:<a href="{{article.url}}" target="_blank" class="card-link"> {{article.url}}</a>
+    </div>
+    
+
+</div>
